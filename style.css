@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c8b5da;
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    background-color:#b87cd4;
+    padding: 10px;
+    color: rgb(236, 236, 236);
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.profile-left {
+    background: rgb(219, 219, 219);
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.profile-right {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    background: #000000;
+    margin-bottom: 10px;
+}
+
+.profile-info {
+    border: 1px solid #360202;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.personal-info {
+    border-top: 1px solid #572222;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.personal-info p {
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.personal-info strong {
+    color: #000000;
+}
+
+.friends-box {
+    border: 1px solid #ca75bf;
+    padding: 10px;
+}
+
+.friends-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+}
+
+.friend-item {
+    text-align: center;
+}
+h1{
+    font-family: Chalkduster, fantasy;
+}
+h2 {
+    color: #ffff;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.status-box {
+    background: #eef3f5;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
