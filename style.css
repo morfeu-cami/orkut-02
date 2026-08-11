@@ -8,7 +8,7 @@ body {
 .header {
     background-color:#b87cd4;
     padding: 10px;
-    color: rgb(236, 236, 236);
+    color: rgb(0, 0, 0);
     margin-bottom: 20px;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 .profile-left {
-    background: rgb(219, 219, 219);
+    background: rgb(255, 251, 251);
     padding: 15px;
     border-radius: 8px;
     width: 250px;
@@ -31,13 +31,6 @@ body {
     padding: 15px;
     border-radius: 8px;
     flex-grow: 1;
-}
-
-.profile-photo {
-    width: 200px;
-    height: 200px;
-    background: #000000;
-    margin-bottom: 10px;
 }
 
 .profile-info {
@@ -79,7 +72,7 @@ h1{
     font-family: Chalkduster, fantasy;
 }
 h2 {
-    color: #ffff;
+    color: #000000;
     font-size: 18px;
     margin-top: 0;
 }
